@@ -1,4 +1,4 @@
-package com.mythicalcreaturesllc.breedingandanimaltracking
+package com.mythcreatures.breedingtracker
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

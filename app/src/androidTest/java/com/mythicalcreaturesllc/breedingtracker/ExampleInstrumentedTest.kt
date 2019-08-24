@@ -1,4 +1,4 @@
-package com.mythicalcreaturesllc.breedingandanimaltracking
+package com.mythcreatures.breedingtracker
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.mythicalcreaturesllc.breedingandanimaltracking", appContext.packageName)
+        assertEquals("com.mythcreatures.breedingtracker", appContext.packageName)
     }
 }
