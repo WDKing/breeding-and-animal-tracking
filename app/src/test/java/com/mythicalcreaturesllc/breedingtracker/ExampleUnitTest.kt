@@ -1,4 +1,4 @@
-package com.mythicalcreaturesllc.breedingandanimaltracking
+package com.mythcreatures.breedingtracker
 
 import org.junit.Test
 

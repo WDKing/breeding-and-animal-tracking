@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "109686005591",
+    "firebase_url": "https://breeding-tracker-c902e.firebaseio.com",
+    "project_id": "breeding-tracker-c902e",
+    "storage_bucket": "breeding-tracker-c902e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109686005591:android:acd9952afd70e8a0",
+        "android_client_info": {
+          "package_name": "com.mythcreatures.breedingtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109686005591-7dnug2k8ct95mq4rflj5eopbq18mqt67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mythcreatures.breedingtracker",
+            "certificate_hash": "3305f2ddcad78849c219aa5a5563fe1e48c0c5b7"
+          }
+        },
+        {
+          "client_id": "109686005591-lbjih5l87ofbg43bj8kqmspg56iev2rl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7qPPvOXv_-W94U-tT_UEE2JoLYaftoZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109686005591-lbjih5l87ofbg43bj8kqmspg56iev2rl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
