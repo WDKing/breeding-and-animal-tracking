@@ -19,8 +19,8 @@
                 <action android:name="android.intent.action.VIEW" />
             </intent-filter>
         </activity>
-        <activity android:name=".animals.AnimalsActivity" />
-        <activity android:name=".litters.LitterActivity" />
+        <activity android:name=".animals.AnimalListActivity" />
+        <activity android:name=".litters.LitterListActivity" />
 
         <meta-data
                 android:name="preloaded_fonts"
