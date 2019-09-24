@@ -9,6 +9,7 @@ class HomePresenter: BasePresenter {
 
     fun startActivity(context: Context, classToStart: Class<*>) {
         val intent = Intent(context, classToStart)
+        intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION)
         ActivityCompat.startActivity(context, intent, null)
     }
 }
