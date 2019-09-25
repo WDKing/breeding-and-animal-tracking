@@ -8,10 +8,10 @@ import java.util.*
 
 @Entity(tableName = animalTableName)
 data class AnimalEntity(
-        @PrimaryKey(autoGenerate = true)
-        var id: Int = 0,
         @ColumnInfo(name = "animal_name")
         var animalName: String,
         @ColumnInfo(name = "animal_description")
-        var animalDescription: String
+        var animalDescription: String,
+        @PrimaryKey(autoGenerate = true)
+        var id: Int = 0
         )
