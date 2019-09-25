@@ -7,8 +7,8 @@ import com.mythcreatures.breedingtracker.Constants.Companion.litterTableName
 
 @Entity(tableName = litterTableName)
 data class LitterEntity (
+        @ColumnInfo(name = "litter_description")
+        var litterDescription: String,
         @PrimaryKey(autoGenerate = true)
-        var id: Int = 0,
-        @ColumnInfo(name = "litter_id")
-        var litterId: String
+        var id: Int = 0
         )
