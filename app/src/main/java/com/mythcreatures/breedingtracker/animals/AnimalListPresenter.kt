@@ -20,7 +20,6 @@ class AnimalListPresenter(animalListView: AnimalListView, appDatabase: AppDataba
 
                 animalList = animalDao.getAll()
             }
-
         }
     }
 }
