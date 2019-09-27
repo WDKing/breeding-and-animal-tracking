@@ -1,4 +1,4 @@
-package com.mythcreatures.breedingtracker
+package com.mythcreatures.breedingtracker.util
 
 class Constants {
 

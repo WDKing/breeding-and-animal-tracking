@@ -3,7 +3,7 @@ package com.mythcreatures.breedingtracker.RoomDB
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.mythcreatures.breedingtracker.Constants.Companion.litterTableName
+import com.mythcreatures.breedingtracker.util.Constants.Companion.litterTableName
 
 @Entity(tableName = litterTableName)
 data class LitterEntity (

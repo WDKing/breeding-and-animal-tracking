@@ -1,8 +1,7 @@
 package com.mythcreatures.breedingtracker.home
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.mythcreatures.breedingtracker.BaseActivity
+import com.mythcreatures.breedingtracker.base.BaseActivity
 import com.mythcreatures.breedingtracker.R
 import com.mythcreatures.breedingtracker.RoomDB.AppDatabase
 import com.mythcreatures.breedingtracker.animals.AnimalListActivity

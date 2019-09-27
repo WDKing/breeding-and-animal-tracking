@@ -1,11 +1,13 @@
 package com.mythcreatures.breedingtracker.animals
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import com.mythcreatures.breedingtracker.BaseActivity
+import android.view.Menu
+import android.view.MenuItem
+import com.mythcreatures.breedingtracker.base.BaseActivity
 import com.mythcreatures.breedingtracker.R
 import com.mythcreatures.breedingtracker.RoomDB.AppDatabase
-import kotlinx.android.synthetic.main.activity_list_animal.*
+import com.mythcreatures.breedingtracker.animals.new.NewAnimalActivity
+
 
 class AnimalListActivity : BaseActivity(), AnimalListView {
 
@@ -18,4 +20,20 @@ class AnimalListActivity : BaseActivity(), AnimalListView {
         animalListPresenter = AnimalListPresenter( this, AppDatabase.getInstance(getContext()) )
     }
 
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        val inflater = menuInflater
+        inflater.inflate(R.menu.animal_list_menu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+
+        when (item?.itemId) {
+            R.id.menuitem_animal_new -> {
+                animalListPresenter.startActivity(getContext(), NewAnimalActivity::class.java)
+                return true
+            }
+            else -> return super.onOptionsItemSelected(item)
+        }
+    }
 }

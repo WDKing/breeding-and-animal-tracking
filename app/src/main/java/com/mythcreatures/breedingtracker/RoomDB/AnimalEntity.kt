@@ -3,8 +3,7 @@ package com.mythcreatures.breedingtracker.RoomDB
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.mythcreatures.breedingtracker.Constants.Companion.animalTableName
-import java.util.*
+import com.mythcreatures.breedingtracker.util.Constants.Companion.animalTableName
 
 @Entity(tableName = animalTableName)
 data class AnimalEntity(

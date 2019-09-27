@@ -1,13 +1,14 @@
 package com.mythcreatures.breedingtracker.animals
 
-import com.mythcreatures.breedingtracker.BasePresenter
+import com.mythcreatures.breedingtracker.base.BasePresenter
 import com.mythcreatures.breedingtracker.RoomDB.AnimalDao
 import com.mythcreatures.breedingtracker.RoomDB.AnimalEntity
 import com.mythcreatures.breedingtracker.RoomDB.AppDatabase
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
-class AnimalListPresenter(animalListView: AnimalListView, appDatabase: AppDatabase) : BasePresenter {
+class AnimalListPresenter(animalListView: AnimalListView, appDatabase: AppDatabase) :
+    BasePresenter {
 
     init {
         GlobalScope.launch {

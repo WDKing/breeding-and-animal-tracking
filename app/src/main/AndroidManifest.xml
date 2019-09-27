@@ -20,7 +20,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".animals.AnimalListActivity" />
+        <activity android:name=".animals.new.NewAnimalActivity" />
         <activity android:name=".litters.LitterListActivity" />
+        <activity android:name="com.mythcreatures.breedingtracker.base.BaseActivity" />
 
         <meta-data
                 android:name="preloaded_fonts"

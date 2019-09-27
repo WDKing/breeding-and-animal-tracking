@@ -1,7 +1,7 @@
 package com.mythcreatures.breedingtracker.RoomDB
 
 import androidx.room.*
-import com.mythcreatures.breedingtracker.Constants.Companion.animalTableName
+import com.mythcreatures.breedingtracker.util.Constants.Companion.animalTableName
 
 @Dao
 interface AnimalDao {
